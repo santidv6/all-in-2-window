@@ -4,8 +4,8 @@
 The aim of this project was to develop an energy-saving system for buildings based on the automation of two concepts: window opening and window transparency. A motor is used for each window to open, controlled by the system, and an ESG (Electro Switchable Glass) is used to control transparency.
 
 <p align="center">
-	<img src="media/circuit_board_assembled.jpg" height="250">
-	<img src="media/ESG_mounted.jpg" height="250">
+	<img src="media/circuit_board_assembled.jpg" height="200">
+	<img src="media/ESG_mounted.jpg" height="200">
 </p>
 
 In the specific case of the POC developed, a system consisting of a single window was presented, with a servomotor for its opening. The "glass" is composed of a methacrylate and an ESG-type film (specifically PDLC) that adheres to the methacrylate. The film is controlled so that it varies between a transparent state and an opaque state in which it scatters 98% of the incident light radiation.
@@ -24,13 +24,13 @@ The environmental variables to be "controlled" (as much as possible) throughout 
 The system includes a control interface for system parameters and configuration using a VM800B50 touchscreen (FTDI chip), as well as various interface-specific settings (language, brightness, calibration, etc.), along with display modes for environmental variables and their evolution over time, manual window control (opening and transparency), and date and time display using the microcontroller's internal RTC.
 
 <p align="center">
-	<img src="media/screens/graphs_menu.jpg" height="250">
-	<img src="media/screens/humidity_graph.jpg" height="250">
+	<img src="media/screens/graphs_menu.jpg" height="200">
+	<img src="media/screens/humidity_graph.jpg" height="200">
 </p>
 
 <p align="center">
-	<img src="media/screens/control_panel_ES.jpg" height="250">
-	<img src="media/screens/datetime_setting.jpg" height="250">
+	<img src="media/screens/control_panel_ES.jpg" height="200">
+	<img src="media/screens/datetime_setting.jpg" height="200">
 </p>
 
 Finally, the screen will dim when the user is inactive and a screensaver will display only the time, date, and system language. The system is controlled by the TM4C1294NCPDT microcontroller.
